@@ -1,0 +1,265 @@
+{
+  "classification_svm": {
+    "precision_macro": 0.683470031530356,
+    "recall_macro": 0.6139466719473442,
+    "f1_macro": 0.6348790228504855,
+    "precision_micro": 0.7117296222664016,
+    "recall_micro": 0.6884615384615385,
+    "f1_micro": 0.6999022482893451,
+    "hamming_loss": 0.07325220711047482,
+    "per_category": {
+      "Availability (A)": {
+        "precision": 0.7666666666666667,
+        "recall": 0.6052631578947368,
+        "f1": 0.6764705882352942,
+        "support": 38
+      },
+      "Fault Tolerance (FT)": {
+        "precision": 0.3333333333333333,
+        "recall": 0.0625,
+        "f1": 0.10526315789473684,
+        "support": 16
+      },
+      "Legal (L)": {
+        "precision": 0.7692307692307693,
+        "recall": 0.6451612903225806,
+        "f1": 0.7017543859649122,
+        "support": 31
+      },
+      "Look & Feel (LF)": {
+        "precision": 0.6818181818181818,
+        "recall": 0.8695652173913043,
+        "f1": 0.7643312101910829,
+        "support": 69
+      },
+      "Maintainability (MN)": {
+        "precision": 0.6071428571428571,
+        "recall": 0.5,
+        "f1": 0.5483870967741935,
+        "support": 34
+      },
+      "Operability (O)": {
+        "precision": 0.6031746031746031,
+        "recall": 0.6551724137931034,
+        "f1": 0.628099173553719,
+        "support": 58
+      },
+      "Performance (PE)": {
+        "precision": 0.7543859649122807,
+        "recall": 0.6825396825396826,
+        "f1": 0.7166666666666667,
+        "support": 63
+      },
+      "Portability (PO)": {
+        "precision": 0.6470588235294118,
+        "recall": 0.5,
+        "f1": 0.5641025641025641,
+        "support": 22
+      },
+      "Scalability (SC)": {
+        "precision": 0.8636363636363636,
+        "recall": 0.6551724137931034,
+        "f1": 0.7450980392156863,
+        "support": 29
+      },
+      "Security (SE)": {
+        "precision": 0.7530864197530864,
+        "recall": 0.8133333333333334,
+        "f1": 0.782051282051282,
+        "support": 75
+      },
+      "Usability (US)": {
+        "precision": 0.7386363636363636,
+        "recall": 0.7647058823529411,
+        "f1": 0.7514450867052023,
+        "support": 85
+      }
+    }
+  },
+  "classification_nb": {
+    "precision_macro": 0.6956124012820655,
+    "recall_macro": 0.43154308408770753,
+    "f1_macro": 0.4635582619563347,
+    "precision_micro": 0.6939252336448598,
+    "recall_micro": 0.5711538461538461,
+    "f1_micro": 0.6265822784810127,
+    "hamming_loss": 0.08446671438797423,
+    "per_category": {
+      "Availability (A)": {
+        "precision": 0.9090909090909091,
+        "recall": 0.5263157894736842,
+        "f1": 0.6666666666666666,
+        "support": 38
+      },
+      "Fault Tolerance (FT)": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 16
+      },
+      "Legal (L)": {
+        "precision": 1.0,
+        "recall": 0.16129032258064516,
+        "f1": 0.2777777777777778,
+        "support": 31
+      },
+      "Look & Feel (LF)": {
+        "precision": 0.6986301369863014,
+        "recall": 0.7391304347826086,
+        "f1": 0.7183098591549296,
+        "support": 69
+      },
+      "Maintainability (MN)": {
+        "precision": 1.0,
+        "recall": 0.08823529411764706,
+        "f1": 0.16216216216216217,
+        "support": 34
+      },
+      "Operability (O)": {
+        "precision": 0.639344262295082,
+        "recall": 0.6724137931034483,
+        "f1": 0.6554621848739496,
+        "support": 58
+      },
+      "Performance (PE)": {
+        "precision": 0.7321428571428571,
+        "recall": 0.6507936507936508,
+        "f1": 0.6890756302521008,
+        "support": 63
+      },
+      "Portability (PO)": {
+        "precision": 0.3333333333333333,
+        "recall": 0.045454545454545456,
+        "f1": 0.08,
+        "support": 22
+      },
+      "Scalability (SC)": {
+        "precision": 1.0,
+        "recall": 0.2413793103448276,
+        "f1": 0.3888888888888889,
+        "support": 29
+      },
+      "Security (SE)": {
+        "precision": 0.7375,
+        "recall": 0.7866666666666666,
+        "f1": 0.7612903225806451,
+        "support": 75
+      },
+      "Usability (US)": {
+        "precision": 0.6016949152542372,
+        "recall": 0.8352941176470589,
+        "f1": 0.6995073891625616,
+        "support": 85
+      }
+    }
+  },
+  "classification_fuzzy": {
+    "precision_macro": 0.7045247271894323,
+    "recall_macro": 0.4955939794422593,
+    "f1_macro": 0.5772763852169738,
+    "precision_micro": 0.7480314960629921,
+    "recall_micro": 0.5480769230769231,
+    "f1_micro": 0.632630410654828,
+    "hamming_loss": 0.0789787640181341,
+    "per_category": {
+      "Availability (A)": {
+        "precision": 0.7916666666666666,
+        "recall": 0.5,
+        "f1": 0.6129032258064516,
+        "support": 38
+      },
+      "Fault Tolerance (FT)": {
+        "precision": 0.2857142857142857,
+        "recall": 0.125,
+        "f1": 0.17391304347826086,
+        "support": 16
+      },
+      "Legal (L)": {
+        "precision": 0.8888888888888888,
+        "recall": 0.5161290322580645,
+        "f1": 0.6530612244897959,
+        "support": 31
+      },
+      "Look & Feel (LF)": {
+        "precision": 0.7058823529411765,
+        "recall": 0.6956521739130435,
+        "f1": 0.7007299270072993,
+        "support": 69
+      },
+      "Maintainability (MN)": {
+        "precision": 0.4090909090909091,
+        "recall": 0.2647058823529412,
+        "f1": 0.32142857142857145,
+        "support": 34
+      },
+      "Operability (O)": {
+        "precision": 0.6666666666666666,
+        "recall": 0.4827586206896552,
+        "f1": 0.56,
+        "support": 58
+      },
+      "Performance (PE)": {
+        "precision": 0.8809523809523809,
+        "recall": 0.5873015873015873,
+        "f1": 0.7047619047619048,
+        "support": 63
+      },
+      "Portability (PO)": {
+        "precision": 0.6111111111111112,
+        "recall": 0.5,
+        "f1": 0.55,
+        "support": 22
+      },
+      "Scalability (SC)": {
+        "precision": 0.8823529411764706,
+        "recall": 0.5172413793103449,
+        "f1": 0.6521739130434783,
+        "support": 29
+      },
+      "Security (SE)": {
+        "precision": 0.9016393442622951,
+        "recall": 0.7333333333333333,
+        "f1": 0.8088235294117647,
+        "support": 75
+      },
+      "Usability (US)": {
+        "precision": 0.7258064516129032,
+        "recall": 0.5294117647058824,
+        "f1": 0.6122448979591837,
+        "support": 85
+      }
+    }
+  },
+  "ambiguity_svm_E": {
+    "single_mean": 0.6565175187333954,
+    "single_std": 0.2149516701052881,
+    "multi_mean": 0.8060511941226447,
+    "multi_std": 0.17151937599230468,
+    "mannwhitney_u": 9759.0,
+    "mannwhitney_p": 3.143574515542155e-10,
+    "point_biserial_r": 0.3286856298242437,
+    "point_biserial_p": 4.759731719607552e-11,
+    "spearman_rho": 0.3052989323247574,
+    "spearman_p": 1.1611924427324746e-09
+  },
+  "ambiguity_fuzzy": {
+    "single_mean": 0.9996916794561053,
+    "single_std": 0.00017955433905542925,
+    "multi_mean": 0.9996375900555161,
+    "multi_std": 0.00023643680331847817,
+    "mannwhitney_u": 17652.0,
+    "mannwhitney_p": 0.9492149809995106,
+    "point_biserial_r": -0.12596283811412295,
+    "point_biserial_p": 0.013877253704935876,
+    "spearman_rho": -0.083155453185541,
+    "spearman_p": 0.10510254124765592
+  },
+  "error_diagnostic_svm_E": {
+    "top1_accuracy": 0.7690288713910761,
+    "correct_mean": 0.6592113493567543,
+    "error_mean": 0.8599540761312596,
+    "mannwhitney_p": 8.849615746158859e-15,
+    "point_biserial_r": 0.39607888000989727,
+    "point_biserial_p": 9.221796332430685e-16
+  }
+}
