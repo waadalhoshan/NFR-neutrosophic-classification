@@ -83,23 +83,7 @@ The neutrosophic entropy measure significantly distinguishes genuinely multi-lab
 
 ## Citation
 
-If you use this code or the accompanying dataset subset, please cite the paper and the original NICE dataset:
-
-```bibtex
-@article{yourname2026neutrosophic,
-  title   = {Neutrosophic Distance and Entropy-Based Classification of Non-Functional Software Requirements},
-  author  = {Your Name},
-  journal = {AIMS Mathematics},
-  year    = {2026}
-}
-
-@inproceedings{rejithkumar2025nice,
-  title     = {NICE: Non-Functional Requirements Identification, Classification, and Explanation Using Small Language Models},
-  author    = {Rejithkumar, G. and Anish, P. R.},
-  booktitle = {2025 IEEE/ACM 47th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
-  pages     = {284--295},
-  year      = {2025}
-}
+If you use this code or the accompanying dataset subset, please cite the paper: TBA
 ```
 
 ## License
